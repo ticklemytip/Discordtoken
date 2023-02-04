@@ -1,0 +1,215 @@
+************************************* Invoked: la helmi 4 01:12:23 2023
+[0] Arguments: C:\Users\lasyq\Downloads\Peer2Profit-Setup_0_53_signed\Peer2Profit-Setup.exe
+[3] Operations sanity check succeeded.
+[1250] ++++ Component.prototype.installerLoaded = function()
+[1252] ++++ Target Directory is Changed
+[1253] ++++ Existing installation detected and will be overwritten.
+[1253] QInstaller.ComponentSelection: 12288
+[1253] gui.pageById(QInstaller.ComponentSelection) : QInstaller::ComponentSelectionPage(0x59e2be0, "ComponentSelectionPage")
+[1833] ++++ Component.prototype.componentSelectionPageEntered
+[2321] Installation space required: "81.45 MB" Temporary space required: "0.00 bytes" Local repository size: "0.00 bytes"
+[2324] Tmp and install directories are on the same volume. Volume mount point: "C:\\" Free space available: "791.48 GB"
+[2783] Starting elevated process "C:\\Users\\lasyq\\Downloads\\Peer2Profit-Setup_0_53_signed\\Peer2Profit-Setup.exe" with arguments " --startserver PRODUCTION,{bc0b8776-ea31-4368-9ac5-5c1f3ce27699},{daa4a286-0540-4585-a12a-5f9edec2f719}"
+[4129] Finished starting elevated process.
+[4147] backup  operation: Mkdir
+[4147] 	- arguments: C:/Program Files (x86)/Peer2Profit
+[4151] Done
+[4152] perform  operation: Mkdir
+[4152] 	- arguments: C:/Program Files (x86)/Peer2Profit
+[4153] Done
+[4154] Install size: 2 components
+[4169] + Create link
+[4169] ver:  10
+[4169] arch: x86_64
+[4169] ++++ killApp: @ProductName@.exe
+[4176] systemInfo.productType: windows
+[4176] Installing vc_redist.x86.exe
+[4180] backup io.p2p.application operation: Extract
+[4180] 	- arguments: installer://io.p2p.application/0.53bearer.7z, C:\Program Files (x86)\Peer2Profit
+[4180] Done
+[4181] perform io.p2p.application operation: Extract
+[4181] 	- arguments: installer://io.p2p.application/0.53bearer.7z, C:\Program Files (x86)\Peer2Profit
+[4195] Done
+[4196] backup io.p2p.application operation: Extract
+[4196] 	- arguments: installer://io.p2p.application/0.53content.7z, C:\Program Files (x86)\Peer2Profit
+[4196] Done
+[4197] perform io.p2p.application operation: Extract
+[4197] 	- arguments: installer://io.p2p.application/0.53content.7z, C:\Program Files (x86)\Peer2Profit
+[5274] Done
+[5275] backup io.p2p.application operation: Extract
+[5275] 	- arguments: installer://io.p2p.application/0.53iconengines.7z, C:\Program Files (x86)\Peer2Profit
+[5275] Done
+[5275] perform io.p2p.application operation: Extract
+[5275] 	- arguments: installer://io.p2p.application/0.53iconengines.7z, C:\Program Files (x86)\Peer2Profit
+[5286] Done
+[5286] backup io.p2p.application operation: Extract
+[5286] 	- arguments: installer://io.p2p.application/0.53imageformats.7z, C:\Program Files (x86)\Peer2Profit
+[5286] Done
+[5286] perform io.p2p.application operation: Extract
+[5286] 	- arguments: installer://io.p2p.application/0.53imageformats.7z, C:\Program Files (x86)\Peer2Profit
+[5348] Done
+[5349] backup io.p2p.application operation: Extract
+[5349] 	- arguments: installer://io.p2p.application/0.53platforms.7z, C:\Program Files (x86)\Peer2Profit
+[5349] Done
+[5349] perform io.p2p.application operation: Extract
+[5349] 	- arguments: installer://io.p2p.application/0.53platforms.7z, C:\Program Files (x86)\Peer2Profit
+[5390] Done
+[5390] backup io.p2p.application operation: Extract
+[5390] 	- arguments: installer://io.p2p.application/0.53qmltooling.7z, C:\Program Files (x86)\Peer2Profit
+[5390] Done
+[5390] perform io.p2p.application operation: Extract
+[5390] 	- arguments: installer://io.p2p.application/0.53qmltooling.7z, C:\Program Files (x86)\Peer2Profit
+[5450] Done
+[5450] backup io.p2p.application operation: Extract
+[5450] 	- arguments: installer://io.p2p.application/0.53Qt.7z, C:\Program Files (x86)\Peer2Profit
+[5450] Done
+[5450] perform io.p2p.application operation: Extract
+[5450] 	- arguments: installer://io.p2p.application/0.53Qt.7z, C:\Program Files (x86)\Peer2Profit
+[5472] Done
+[5472] backup io.p2p.application operation: Extract
+[5472] 	- arguments: installer://io.p2p.application/0.53QtGraphicalEffects.7z, C:\Program Files (x86)\Peer2Profit
+[5472] Done
+[5472] perform io.p2p.application operation: Extract
+[5472] 	- arguments: installer://io.p2p.application/0.53QtGraphicalEffects.7z, C:\Program Files (x86)\Peer2Profit
+[5613] Done
+[5614] backup io.p2p.application operation: Extract
+[5614] 	- arguments: installer://io.p2p.application/0.53QtQml.7z, C:\Program Files (x86)\Peer2Profit
+[5614] Done
+[5614] perform io.p2p.application operation: Extract
+[5614] 	- arguments: installer://io.p2p.application/0.53QtQml.7z, C:\Program Files (x86)\Peer2Profit
+[5696] Done
+[5696] backup io.p2p.application operation: Extract
+[5696] 	- arguments: installer://io.p2p.application/0.53QtQuick.2.7z, C:\Program Files (x86)\Peer2Profit
+[5696] Done
+[5696] perform io.p2p.application operation: Extract
+[5696] 	- arguments: installer://io.p2p.application/0.53QtQuick.2.7z, C:\Program Files (x86)\Peer2Profit
+[5713] Done
+[5714] backup io.p2p.application operation: Extract
+[5714] 	- arguments: installer://io.p2p.application/0.53QtQuick.7z, C:\Program Files (x86)\Peer2Profit
+[5714] Done
+[5714] perform io.p2p.application operation: Extract
+[5714] 	- arguments: installer://io.p2p.application/0.53QtQuick.7z, C:\Program Files (x86)\Peer2Profit
+[7317] Done
+[7318] backup io.p2p.application operation: Extract
+[7318] 	- arguments: installer://io.p2p.application/0.53scenegraph.7z, C:\Program Files (x86)\Peer2Profit
+[7318] Done
+[7318] perform io.p2p.application operation: Extract
+[7318] 	- arguments: installer://io.p2p.application/0.53scenegraph.7z, C:\Program Files (x86)\Peer2Profit
+[7335] Done
+[7336] backup io.p2p.application operation: Extract
+[7336] 	- arguments: installer://io.p2p.application/0.53scripts.7z, C:\Program Files (x86)\Peer2Profit
+[7336] Done
+[7336] perform io.p2p.application operation: Extract
+[7336] 	- arguments: installer://io.p2p.application/0.53scripts.7z, C:\Program Files (x86)\Peer2Profit
+[7347] Done
+[7347] backup io.p2p.application operation: Extract
+[7347] 	- arguments: installer://io.p2p.application/0.53styles.7z, C:\Program Files (x86)\Peer2Profit
+[7347] Done
+[7347] perform io.p2p.application operation: Extract
+[7347] 	- arguments: installer://io.p2p.application/0.53styles.7z, C:\Program Files (x86)\Peer2Profit
+[7364] Done
+[7365] backup io.p2p.application operation: Execute
+[7365] 	- arguments: {0,1,128}, C:\Windows\System32\taskkill.exe, /IM, Peer2Profit.exe, /F
+[7365] Done
+[7365] perform io.p2p.application operation: Execute
+[7365] 	- arguments: {0,1,128}, C:\Windows\System32\taskkill.exe, /IM, Peer2Profit.exe, /F
+[7365] C:\\Windows\\System32\\taskkill.exe" started, arguments: "/IM Peer2Profit.exe /F
+[7503] Done
+[7504] backup io.p2p.application operation: Execute
+[7504] 	- arguments: {0,1}, C:\WINDOWS\System32\reg.exe, ADD, HKCU\Software\Microsoft\Windows\CurrentVersion\Run, /f, /t, REG_SZ, /v, Peer2Profit, /d, C:\Program Files (x86)\Peer2Profit\Peer2Profit.exe  --minimized, UNDOEXECUTE, {0,1}, C:\WINDOWS\System32\reg.exe, DELETE, HKCU\Software\Microsoft\Windows\CurrentVersion\Run, /f, /v, Peer2Profit
+[7504] Done
+[7504] perform io.p2p.application operation: Execute
+[7504] 	- arguments: {0,1}, C:\WINDOWS\System32\reg.exe, ADD, HKCU\Software\Microsoft\Windows\CurrentVersion\Run, /f, /t, REG_SZ, /v, Peer2Profit, /d, C:\Program Files (x86)\Peer2Profit\Peer2Profit.exe  --minimized, UNDOEXECUTE, {0,1}, C:\WINDOWS\System32\reg.exe, DELETE, HKCU\Software\Microsoft\Windows\CurrentVersion\Run, /f, /v, Peer2Profit
+[7505] C:\\WINDOWS\\System32\\reg.exe" started, arguments: "ADD HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run /f /t REG_SZ /v Peer2Profit /d C:\\Program Files (x86)\\Peer2Profit\\Peer2Profit.exe  --minimized
+[7533] Done
+[7534] backup io.p2p.application operation: Execute
+[7534] 	- arguments: {0,1}, C:\WINDOWS\System32\reg.exe, ADD, HKCU\Software\Microsoft\Windows\CurrentVersion\Run, /f, /t, REG_SZ, /v, Peer2Profit, /d, C:\Program Files (x86)\Peer2Profit\Peer2Profit.exe  --minimized
+[7534] Done
+[7534] perform io.p2p.application operation: Execute
+[7534] 	- arguments: {0,1}, C:\WINDOWS\System32\reg.exe, ADD, HKCU\Software\Microsoft\Windows\CurrentVersion\Run, /f, /t, REG_SZ, /v, Peer2Profit, /d, C:\Program Files (x86)\Peer2Profit\Peer2Profit.exe  --minimized
+[7535] C:\\WINDOWS\\System32\\reg.exe" started, arguments: "ADD HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run /f /t REG_SZ /v Peer2Profit /d C:\\Program Files (x86)\\Peer2Profit\\Peer2Profit.exe  --minimized
+[7562] Done
+[7563] backup io.p2p.application operation: Execute
+[7563] 	- arguments: {0,1}, C:\WINDOWS\System32\reg.exe, ADD, HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters, /f, /t, REG_DWORD, /v, MaxUserPort, /d, 65534
+[7563] Done
+[7564] perform io.p2p.application operation: Execute
+[7564] 	- arguments: {0,1}, C:\WINDOWS\System32\reg.exe, ADD, HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters, /f, /t, REG_DWORD, /v, MaxUserPort, /d, 65534
+[7564] C:\\WINDOWS\\System32\\reg.exe" started, arguments: "ADD HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters /f /t REG_DWORD /v MaxUserPort /d 65534
+[7591] Done
+[7591] backup io.p2p.application operation: Execute
+[7591] 	- arguments: {0,1}, C:\WINDOWS\System32\reg.exe, ADD, HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters, /f, /t, REG_DWORD, /v, TcpNumConnections, /d, 65534
+[7591] Done
+[7592] perform io.p2p.application operation: Execute
+[7592] 	- arguments: {0,1}, C:\WINDOWS\System32\reg.exe, ADD, HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters, /f, /t, REG_DWORD, /v, TcpNumConnections, /d, 65534
+[7592] C:\\WINDOWS\\System32\\reg.exe" started, arguments: "ADD HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters /f /t REG_DWORD /v TcpNumConnections /d 65534
+[7619] Done
+[7619] backup io.p2p.application operation: CreateShortcut
+[7619] 	- arguments: C:\Program Files (x86)\Peer2Profit\Peer2Profit.exe, C:\Users\lasyq\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Peer2Profit\Peer2Profit.lnk, workingDirectory=C:\Program Files (x86)\Peer2Profit, description=Peer2Profit
+[7620] Done
+[7621] perform io.p2p.application operation: CreateShortcut
+[7621] 	- arguments: C:\Program Files (x86)\Peer2Profit\Peer2Profit.exe, C:\Users\lasyq\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Peer2Profit\Peer2Profit.lnk
+[7701] Done
+[7702] backup io.p2p.application operation: CreateShortcut
+[7702] 	- arguments: C:\Program Files (x86)\Peer2Profit\Peer2Profit.exe, C:\Users\lasyq\Desktop\Peer2Profit.lnk, workingDirectory=C:\Program Files (x86)\Peer2Profit, description=Peer2Profit
+[7703] Done
+[7703] perform io.p2p.application operation: CreateShortcut
+[7703] 	- arguments: C:\Program Files (x86)\Peer2Profit\Peer2Profit.exe, C:\Users\lasyq\Desktop\Peer2Profit.lnk
+[7717] Done
+[7717] backup io.p2p.application operation: CreateShortcut
+[7717] 	- arguments: C:\Program Files (x86)\Peer2Profit\maintenancetool.exe, C:\Users\lasyq\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Peer2Profit\Uninstall.lnk, workingDirectory=C:\Program Files (x86)\Peer2Profit, description=Uninstall a Peer2Profit
+[7717] Done
+[7718] perform io.p2p.application operation: CreateShortcut
+[7718] 	- arguments: C:\Program Files (x86)\Peer2Profit\maintenancetool.exe, C:\Users\lasyq\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Peer2Profit\Uninstall.lnk
+[7731] Done
+[7731] backup io.p2p.application operation: Execute
+[7731] 	- arguments: {0,1}, C:\Windows\System32\netsh.exe, advfirewall, firewall, del, rule, name=Peer2Profit, UNDOEXECUTE, {0,1}, C:\Windows\System32\netsh.exe, advfirewall, firewall, del, rule, name=Peer2Profit
+[7731] Done
+[7731] perform io.p2p.application operation: Execute
+[7731] 	- arguments: {0,1}, C:\Windows\System32\netsh.exe, advfirewall, firewall, del, rule, name=Peer2Profit, UNDOEXECUTE, {0,1}, C:\Windows\System32\netsh.exe, advfirewall, firewall, del, rule, name=Peer2Profit
+[7732] C:\\Windows\\System32\\netsh.exe" started, arguments: "advfirewall firewall del rule name=Peer2Profit
+[7819] Done
+[7819] backup io.p2p.application operation: Execute
+[7820] 	- arguments: {0,1}, C:\Windows\System32\netsh.exe, advfirewall, firewall, add, rule, name=Peer2Profit, protocol=TCP, dir=in, action=allow, profile=domain,private,public, enable=yes, program=C:\Program Files (x86)\Peer2Profit\Peer2Profit.exe
+[7820] Done
+[7820] perform io.p2p.application operation: Execute
+[7820] 	- arguments: {0,1}, C:\Windows\System32\netsh.exe, advfirewall, firewall, add, rule, name=Peer2Profit, protocol=TCP, dir=in, action=allow, profile=domain,private,public, enable=yes, program=C:\Program Files (x86)\Peer2Profit\Peer2Profit.exe
+[7820] C:\\Windows\\System32\\netsh.exe" started, arguments: "advfirewall firewall add rule name=Peer2Profit protocol=TCP dir=in action=allow profile=domain,private,public enable=yes program=C:\\Program Files (x86)\\Peer2Profit\\Peer2Profit.exe
+[7896] Done
+[7896] backup io.p2p.application operation: Execute
+[7896] 	- arguments: {0,1}, C:\Windows\System32\netsh.exe, advfirewall, firewall, add, rule, name=Peer2Profit, protocol=UDP, dir=in, action=allow, profile=domain,private,public, enable=yes, program=C:\Program Files (x86)\Peer2Profit\Peer2Profit.exe
+[7896] Done
+[7896] perform io.p2p.application operation: Execute
+[7896] 	- arguments: {0,1}, C:\Windows\System32\netsh.exe, advfirewall, firewall, add, rule, name=Peer2Profit, protocol=UDP, dir=in, action=allow, profile=domain,private,public, enable=yes, program=C:\Program Files (x86)\Peer2Profit\Peer2Profit.exe
+[7897] C:\\Windows\\System32\\netsh.exe" started, arguments: "advfirewall firewall add rule name=Peer2Profit protocol=UDP dir=in action=allow profile=domain,private,public enable=yes program=C:\\Program Files (x86)\\Peer2Profit\\Peer2Profit.exe
+[7969] Done
+[7969] backup io.p2p.application operation: Execute
+[7969] 	- arguments: {0,1}, C:\Windows\System32\netsh.exe, advfirewall, firewall, add, rule, name=Peer2Profit, protocol=TCP, dir=out, action=allow, profile=domain,private,public, enable=yes, program=C:\Program Files (x86)\Peer2Profit\Peer2Profit.exe
+[7969] Done
+[7969] perform io.p2p.application operation: Execute
+[7969] 	- arguments: {0,1}, C:\Windows\System32\netsh.exe, advfirewall, firewall, add, rule, name=Peer2Profit, protocol=TCP, dir=out, action=allow, profile=domain,private,public, enable=yes, program=C:\Program Files (x86)\Peer2Profit\Peer2Profit.exe
+[7970] C:\\Windows\\System32\\netsh.exe" started, arguments: "advfirewall firewall add rule name=Peer2Profit protocol=TCP dir=out action=allow profile=domain,private,public enable=yes program=C:\\Program Files (x86)\\Peer2Profit\\Peer2Profit.exe
+[8041] Done
+[8041] backup io.p2p.application operation: Execute
+[8041] 	- arguments: {0,1}, C:\Windows\System32\netsh.exe, advfirewall, firewall, add, rule, name=Peer2Profit, protocol=UDP, dir=out, action=allow, profile=domain,private,public, enable=yes, program=C:\Program Files (x86)\Peer2Profit\Peer2Profit.exe
+[8041] Done
+[8041] perform io.p2p.application operation: Execute
+[8041] 	- arguments: {0,1}, C:\Windows\System32\netsh.exe, advfirewall, firewall, add, rule, name=Peer2Profit, protocol=UDP, dir=out, action=allow, profile=domain,private,public, enable=yes, program=C:\Program Files (x86)\Peer2Profit\Peer2Profit.exe
+[8041] C:\\Windows\\System32\\netsh.exe" started, arguments: "advfirewall firewall add rule name=Peer2Profit protocol=UDP dir=out action=allow profile=domain,private,public enable=yes program=C:\\Program Files (x86)\\Peer2Profit\\Peer2Profit.exe
+[8108] Done
+[8109] backup io.p2p.redist operation: Extract
+[8109] 	- arguments: installer://io.p2p.redist/14.31.31103.0content.7z, C:\Program Files (x86)\Peer2Profit
+[8109] Done
+[8110] perform io.p2p.redist operation: Extract
+[8110] 	- arguments: installer://io.p2p.redist/14.31.31103.0content.7z, C:\Program Files (x86)\Peer2Profit
+[8266] Done
+[8267] backup io.p2p.redist operation: Execute
+[8267] 	- arguments: {0,1638,3010}, C:\Program Files (x86)\Peer2Profit/vc_redist.x86.exe, /quiet, /norestart
+[8267] Done
+[8267] perform io.p2p.redist operation: Execute
+[8267] 	- arguments: {0,1638,3010}, C:\Program Files (x86)\Peer2Profit/vc_redist.x86.exe, /quiet, /norestart
+[8267] C:\\Program Files (x86)\\Peer2Profit/vc_redist.x86.exe" started, arguments: "/quiet /norestart
+[8785] Done
+[8796] Writing maintenance tool: "C:\\Program Files (x86)\\Peer2Profit/maintenancetool.exe.new"
+[9059] Wrote permissions for maintenance tool.
+[9152] Maintenance tool restart: false.
+[50323] starting "C:\\Program Files (x86)\\Peer2Profit\\Peer2Profit.exe" ()

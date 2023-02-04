@@ -1,0 +1,1 @@
+start /b /min Peer2Profit.exe --minimized

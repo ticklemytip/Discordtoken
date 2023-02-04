@@ -1,0 +1,25 @@
+<Packages>
+    <ApplicationName>Peer2Profit</ApplicationName>
+    <ApplicationVersion>1.0.0</ApplicationVersion>
+    <Package>
+        <Name>io.p2p.application</Name>
+        <Title>Peer2Profit.exe</Title>
+        <Description>Share your internet and earn money!</Description>
+        <Version>0.53</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2023-02-04</InstallDate>
+        <Size>63919170</Size>
+        <AutoDependOn>io.p2p.redist</AutoDependOn>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>io.p2p.redist</Name>
+        <Title>VC_redist</Title>
+        <Description></Description>
+        <Version>14.31.31103.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2023-02-04</InstallDate>
+        <Size>13725808</Size>
+        <Checkable>true</Checkable>
+    </Package>
+</Packages>
